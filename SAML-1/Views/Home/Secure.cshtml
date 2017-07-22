@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Secure";
+}
+
+<h2>Secure</h2>
+<ul>
+    @foreach (var claim in Model)
+    {
+        <li>@claim.Key - @claim.Value</li>
+    }
+</ul>
+
