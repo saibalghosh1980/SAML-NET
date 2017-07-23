@@ -31,9 +31,9 @@ namespace SAML_1.Controllers
         {
             AccountSettings accountSettings = new AccountSettings();
 
-            OneLogin.Saml.AuthRequest req = new OneLogin.Saml.AuthRequest(new AppSettings(), accountSettings);
+            SKGSAML.Saml.AuthRequest req = new SKGSAML.Saml.AuthRequest(new AppSettings(), accountSettings);
 
-            return Redirect(accountSettings.idp_sso_target_url + "?SAMLRequest=" + System.Net.WebUtility.UrlEncode(req.GetRequest(OneLogin.Saml.AuthRequest.AuthRequestFormat.Base64)));
+            return Redirect(accountSettings.idp_sso_target_url + "?SAMLRequest=" + System.Net.WebUtility.UrlEncode(req.GetRequest(SKGSAML.Saml.AuthRequest.AuthRequestFormat.Base64)));
 
 
         }

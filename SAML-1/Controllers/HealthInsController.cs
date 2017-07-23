@@ -14,7 +14,7 @@ namespace SAML_1.Controllers
             // replace with an instance of the users account.
             AccountSettings accountSettings = new AccountSettings();
 
-            OneLogin.Saml.Response samlResponse = new OneLogin.Saml.Response(accountSettings);
+            SKGSAML.Saml.Response samlResponse = new SKGSAML.Saml.Response(accountSettings);
             samlResponse.LoadXmlFromBase64(Request.Form["SAMLResponse"]);
 
             if (samlResponse.IsValid())

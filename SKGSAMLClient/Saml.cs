@@ -19,7 +19,7 @@ using System.Collections.Generic;
 /// Summary description for saml
 /// </summary>
 
-namespace OneLogin 
+namespace SKGSAML 
 {
     namespace Saml
     {

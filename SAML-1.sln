@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAML-1", "SAML-1\SAML-1.csproj", "{01B12DCA-A878-42A6-B76D-5F569377046B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKGSAMLClient", "SKGSAMLClient\SKGSAMLClient.csproj", "{45743246-82C2-4780-AAFE-641908649DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{01B12DCA-A878-42A6-B76D-5F569377046B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B12DCA-A878-42A6-B76D-5F569377046B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B12DCA-A878-42A6-B76D-5F569377046B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45743246-82C2-4780-AAFE-641908649DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45743246-82C2-4780-AAFE-641908649DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45743246-82C2-4780-AAFE-641908649DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45743246-82C2-4780-AAFE-641908649DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
